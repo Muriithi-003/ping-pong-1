@@ -12,3 +12,15 @@ function pingpong(i){
 	else{
 		return i
 		}
+
+//user interface
+$(document).ready(function(){
+	$("form#ping-form").submit(function(event){
+		event.preventDefault();
+		$("ul.ping_list").empty();
+		var num=parseInt($("input#num").val());
+		for(var i=1; i<=num; i+=1){
+			$("ul.ping_list").append("<li>"+pingpong(i)+"</li>");
+		}
+	});
+});
