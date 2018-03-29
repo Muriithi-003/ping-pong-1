@@ -1,3 +1,13 @@
+/** body **/
+body {
+  font-family: 'Lato', arial, sans-serif;
+ 
+  background: #B71427;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 /** header **/
 .header{
   padding: 40px 0;
