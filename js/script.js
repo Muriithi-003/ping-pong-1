@@ -1,6 +1,7 @@
-//back-end
-function pingpong(i){
-	if (i%3===0 && i%5===0){
+//back-end logic
+function pingPong(i){
+	//takes in an interger and integer as an argument and returns the below logical states
+	if (i%15===0){
 		return "pingpong"
 		}
 	else if(i%3===0){
@@ -21,7 +22,7 @@ $(document).ready(function(){
 		$("ul.ping_list").empty();
 		var num=parseInt($("input#num").val());
 		for(var i=1; i<=num; i+=1){
-			$("ul.ping_list").append("<li>"+pingpong(i)+"</li>");
+			$("ul.ping_list").append("<li>"+pingPong(i)+"</li>");
 		}
 	});
 });
