@@ -23,30 +23,46 @@ To view the page click on the link below
 * It counts up to the provided number
     * **Example Input** :  2
     * **Example Output** : [1,2]
+<<<<<<< HEAD
     * 
     ```for(var i=1; i<=userInput; i+=1){
+=======
+    * ```for(var i=1; i<=userInput; i+=1){
+>>>>>>> 8c11322a2eea5431205c0a1bfdccb3f43d66a9ee
 			//count to the user input;
 		}
 	  ```
 * It replaces numbers divisible by 3 with **ping**
     * **Example Input** :  4
     * **Example Output** : [1, 2, ping, 4]
+<<<<<<< HEAD
     * 
     ```if(number % 3===0){
+=======
+    * ```if(number % 3===0){
+>>>>>>> 8c11322a2eea5431205c0a1bfdccb3f43d66a9ee
 		return "ping"
 		}```
 * It replaces numbers divisible by 5 with **pong**
     * **Example Input** :  6
     * **Example Output** : [1, 2, ping, 4, pong, ping]
+<<<<<<< HEAD
     * 
     ```if(number % 5===0){
+=======
+    * ```if(number % 5===0){
+>>>>>>> 8c11322a2eea5431205c0a1bfdccb3f43d66a9ee
 		return "pong"
 		}```
 * It replaces numbers divisible by 15 with **pingpong**
     * **Example Input** :  17
     * **Example Output** : [1, ..., ping, 13, 14, pingpong, 16, 17]
+<<<<<<< HEAD
     * 
     ```if(number % 15===0){
+=======
+    * ```if(number % 15===0){
+>>>>>>> 8c11322a2eea5431205c0a1bfdccb3f43d66a9ee
 		return "pingpong"
 		}```
 
@@ -62,6 +78,10 @@ There are no known bugs. If you find any be sure to create an issue and I will r
 * Javascript
 * jquery Library
 
+<<<<<<< HEAD
 ## License ##
+=======
+### License ##
+>>>>>>> 8c11322a2eea5431205c0a1bfdccb3f43d66a9ee
 
 This project is licensed under the MIT Open Source license, (c) [Jack ogina](https://github.com/jakhax) 
