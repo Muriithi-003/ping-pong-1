@@ -11,7 +11,6 @@ This a web based javascript number game, it takes a number from a user and retur
 * Numbers divisible by 15 are replaced with "pingpong"
 
 ## Setup/Installation ##
-To use this landing page 
 * Git clone https://github.com/jakhax/ping-pong.git or download and unzip the repository from github.
 * Open index.html via your web browser.
 
